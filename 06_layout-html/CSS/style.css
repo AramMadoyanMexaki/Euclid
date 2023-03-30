@@ -405,11 +405,16 @@ body {
   flex-wrap: wrap;
 }
 
-/* .accommodation-item {
+.accommodation-item {
   margin-right: 24px;
-  margin-left: 0;
 }
 
 .accommodation-list:nth-child(3n) {
   margin-right: 0;
-} */
+} 
+
+/* .accommodation-item {
+  margin-right: 24px;
+  margin-left: 0;
+}
+*/
