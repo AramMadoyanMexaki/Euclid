@@ -369,11 +369,29 @@ body {
   color: #333333;
 }
 
+.section__context {
+  max-width: 888px;
+  margin-top: 20px;
+}
+
+.section__context .text {
+  line-height: 32px;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Services*/
+
+.services__list {
+  flex-wrap: wrap;
+}
+
 .service__item__link {
   transition: color 0.2s linear;
 }
 
 .service__item__link:focus {
+  outline: none;
   color: var(--linkColor);
 }
 
@@ -401,21 +419,9 @@ body {
   margin-left: 11px;
 }
 
-.section__context {
-  max-width: 888px;
-  margin-top: 20px;
-}
-
-.section__context .text {
-  line-height: 32px;
-  font-size: 16px;
-  margin: 0;
-}
-
-/* Services*/
-
-.services__list {
-  flex-wrap: wrap;
+.service-item:focus-within {
+  outline: 1px solid var(--linkColor);
+  outline-offset: 8px;
 }
 
 .service-item {
@@ -758,6 +764,9 @@ body {
 .contact_item_context {
   width: 229px;
   margin-bottom: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .phone_address {
@@ -891,6 +900,7 @@ footer {
 
 .using {
   margin-top: 40px;
+  max-width: max-content;
   transition: color 0.2s linear;
 }
 
@@ -910,10 +920,15 @@ footer {
 .footer_tel_addresses {
   margin-top: 15px;
   margin-bottom: 15px;
+  max-width: max-content;
 }
 
 .footer_email {
-  padding: 0;
+  padding: 0px;
+}
+
+.footer_email-link {
+  max-width: max-content;
 }
 
 .social_item {
