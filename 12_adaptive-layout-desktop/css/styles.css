@@ -111,6 +111,38 @@ body {
   box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
 
+.burger {
+  display: none;
+  border: none;
+  background-color: inherit;
+  position: relative;
+  width: 30px;
+  height: 23px;
+  color: #333333;
+}
+
+
+.burger__line {
+  background-color: #333333;
+  height: 3px;
+  width: 30px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.burger__line:nth-child(1) {
+  bottom: 7px;
+}
+
+.burger__line:nth-child(2) {
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.burger__line:nth-child(3) {
+  bottom: 1px;
+}
+
 .header__main-logo {
   margin-right: auto;
 }
@@ -127,6 +159,8 @@ body {
 
 .nav__address-list {
   gap: 85px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav__item {
@@ -245,7 +279,7 @@ body {
 }
 
 .about-us__text {
-  width: 1235px;
+  max-width: 1235px;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
@@ -266,6 +300,7 @@ body {
   justify-content: flex-end;
   padding: 426px 0 0 0;
   margin-right: 32px;
+  min-height: 622px;
 }
 
 .about-us__possibilities {
@@ -273,7 +308,12 @@ body {
   gap: 32px;
 }
 
+.about-us__possibilities-item {
+  max-width: 870px;
+}
+
 .about-us__footer {
+  margin-top: auto;
   padding: 50px;
   justify-content: space-between;
   align-items: center;
@@ -289,7 +329,6 @@ body {
 
 .about-us__possibilities-description {
   margin: 0;
-  width: 450px;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
@@ -344,7 +383,6 @@ body {
 
 .about-us__possibilities-context {
   margin: 0;
-  width: 870px;
   border: 1px solid var(--border-color);
   padding: 65px 118px 65px 300px;
 }
@@ -457,9 +495,6 @@ body {
 
 .work__picture {
   width: 870px;
-  height: 460px;
-  position: relative;
-  top: 100px;
   background-image: url("../img/work-office-picture.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -499,6 +534,12 @@ body {
   cursor: pointer;
   padding: 30px 0;
   transition: color 0.2s linear;
+}
+
+.questions__item-logo svg {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
 }
 
 .questions__item:first-child {
@@ -556,6 +597,7 @@ body {
   color: var(--text-color);
   margin: 0;
   transition: color 0.2s linear;
+  text-align: left;
 }
 
 .slash {
@@ -577,10 +619,6 @@ body {
 
 .footer__logo {
   margin-bottom: 20px;
-}
-
-.footer__addresses {
-  padding-right: 80px;
 }
 
 .addresses__list {
@@ -664,7 +702,7 @@ body {
 }
 
 .footer__form {
-  width: 570px;
+  max-width: 570px;
 }
 
 .form__input:not(:first-child) {

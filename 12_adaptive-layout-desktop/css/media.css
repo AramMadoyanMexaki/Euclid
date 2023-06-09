@@ -1,0 +1,591 @@
+@media (max-width: 1400px) {
+  .nav__address-list {
+    gap: 60px;
+  }
+
+  .about-us__image-wrapper {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .about-us__picture {
+    width: 100%;
+  }
+
+  .nav__address-list {
+    margin: 0;
+  }
+
+  .footer__descr-text {
+    display: none;
+  }
+
+  .footer__container {
+    padding: 0 0 0 75px;
+  }
+
+  .about-us__possibilities-item {
+    max-width: unset;
+    background-position: 20px 30px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .nav {
+    display: none;
+  }
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .header__container {
+    padding: 26px 52px 25px 50px;
+  }
+
+  .order-calculation__context {
+    padding: 160px 77px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .header__main-logo {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .order-calculation__title {
+    max-width: 770px;
+    font-weight: 800;
+    font-size: 60px;
+  }
+
+  .order-calculation__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 660px;
+  }
+
+  .about-us__text {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .about-us__image-wrapper {
+    flex-direction: column;
+  }
+
+  .about-us__picture {
+    margin-bottom: 32px;
+  }
+
+  .work__context-kind__text {
+    max-width: 437px;
+    margin-right: 50px;
+  }
+
+  .work__picture {
+    max-width: 437px;
+    min-height: 689px;
+    background-size: cover;
+  }
+
+  .questions__text {
+    max-width: 756px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .footer__descr {
+    display: none;
+  }
+
+  .footer {
+    padding: 50px 21px 50px 49px;
+  }
+
+  .footer__logo-icon {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .order-calculation__title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .order-calculation__text {
+    max-width: 550px;
+    font-size: 17px;
+  }
+
+  .form__textbox {
+    max-width: 370px;
+  }
+
+  .about-us__possibilities-item {
+    max-width: 670px;
+  }
+
+  .about-us__possibilities-context {
+    padding: 25px 50px 60px 190px;
+  }
+
+  .about-us__possibilities-item {
+    background-position: 20px 60px;
+    background-size: 160px 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .order-calculation {
+    padding: 0 30px;
+  }
+
+  .header__main-logo {
+    margin: 0 auto 0 30%;
+  }
+
+  .order-calculation__context {
+    padding: 160px 40px;
+  }
+
+  .order-calculation__title {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .order-calculation__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 60px;
+  }
+
+  .about-us__picture {
+    max-width: 668px;
+    margin: 0;
+  }
+
+  .about-us__footer {
+    padding: 34px 40px;
+  }
+
+  .about-us__subtext {
+    line-height: 32px;
+    max-width: 366px;
+  }
+
+  .about-us__footer {
+    gap: 47px;
+  }
+
+  .about-us__subtext {
+    font-weight: 600;
+    line-height: 25px;
+  }
+
+  .about-us__more {
+    padding: 20px 28px;
+  }
+
+  .about-us__possibilities-context {
+    padding: 25px 0px 60px 150px;
+  }
+
+  .about-us__possibilities-item {
+    background-position: 10px 80px;
+    background-size: 120px 110px;
+  }
+
+  .about-us__possibilities-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .about-us__possibilities-description {
+    font-size: 14px;
+    max-width: 360px;
+  }
+
+  .work {
+    margin-top: 0;
+  }
+
+  .work__container {
+    flex-direction: column-reverse;
+  }
+
+  .work__items {
+    gap: 100px;
+  }
+
+  .work__context-kind__text {
+    max-width: 667px;
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+
+  .work__picture {
+    max-width: 668px;
+    min-height: 160px;
+  }
+
+  .questions__text {
+    max-width: 530px;
+    font-size: 18px;
+    max-width: 400px;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .addresses__list {
+    display: none;
+  }
+
+  .addresses__social {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .work__picture {
+    width: 100%;
+    margin-bottom: 130px;
+  }
+}
+
+@media (max-width: 670px) {
+  .header {
+    padding: 0;
+  }
+
+  .order-calculation__context {
+    padding: 160px 0;
+  }
+
+  .form__label-subtext {
+    font-size: 14px;
+  }
+
+  .footer__container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .order-calculation__text {
+    font-size: 16px;
+    max-width: 480px;
+  }
+
+  .about-us__possibilities-context {
+    border: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header__container {
+    padding: 17px 17.07px 17px 15px;
+  }
+
+  .order-calculation {
+    padding: 0 15px;
+  }
+
+  .order-calculation__context {
+    padding: 60px 21px 60px 22px;
+  }
+
+  .order-calculation__title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 247px;
+  }
+
+  .header__main-logo svg {
+    max-width: 110px;
+    height: 35px;
+    display: flex;
+    position: relative;
+  }
+
+  .header__logo {
+    margin-left: 53px;
+  }
+
+  .order-calculation__text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    max-width: 247px;
+  }
+
+  .order-calculation__btn {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 18.571px 37.1419px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .order-calculation__context {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec-text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .sec-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about-us {
+    margin-top: 60px;
+  }
+
+  .about-us__text {
+    line-height: 28px;
+  }
+
+  .about-us__picture {
+    position: relative;
+  }
+
+  .about-us__footer {
+    background-color: inherit;
+    color: #333333;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .questions__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .about-us__possibilities {
+    gap: 32px;
+  }
+
+  .about-us__possibilities-item {
+    width: 100%;
+    min-height: auto;
+    padding-top: 60px;
+    background-size: 64px 49px;
+    background-position: 0 1%;
+  }
+
+  .about-us__possibilities-context {
+    padding: 0;
+  }
+
+  .about-us__possibilities-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about-us__possibilities-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .questions__item-logo svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .form__label {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .work__items {
+    gap: 44px;
+  }
+
+  .footer {
+    padding: 32px 0;
+  }
+
+  .addresses__social {
+    margin: 0;
+  }
+
+  .addresses__social-list {
+    gap: 16px;
+  }
+
+  .footer__addresses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+  }
+
+  .form__textbox {
+    max-width: 100%;
+  }
+
+  .about-us__picture {
+    width: 100%;
+    min-height: auto;
+    padding-top: 75%;
+    background-position: left top;
+    background-size: 100%;
+  }
+
+  .about-us__footer {
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .about-us__subtext {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    max-width: 290px;
+  }
+
+  .about-us__more {
+    color: #ff9900;
+    padding: 11px 14px;
+    line-height: 14.63px;
+  }
+
+  .work__context-treaty__btn {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .form__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--border-color);
+    margin: 0;
+  }
+
+  .work__picture {
+    width: 100%;
+    background-position: left top;
+    background-size: 100%;
+    margin-bottom: 16px;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .form__label-send {
+    padding: 12px 23px 13px 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .form__label-subtext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .form__label {
+    align-items: center;
+    border-bottom: 1px solid #595959;
+    padding-bottom: 16px;
+  }
+
+  .footer__addresses {
+    margin-top: 16px;
+  }
+
+  .footer__logo {
+    margin-bottom: 16px;
+  }
+
+  .footer__logo svg {
+    width: 131px;
+    height: 42px;
+    margin-bottom: 0;
+  }
+
+  .addresses__social-link svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about-us {
+    margin-bottom: 60px;
+  }
+
+  .work__btns {
+    gap: 10px;
+  }
+
+  .work__context-more__btn {
+    margin: 0;
+  }
+
+  .work__context-more__btn {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 11px 14px 14px 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+  }
+  
+  .work__context-treaty__btn {
+    padding: 11px 29px 14px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work__context-kind__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
