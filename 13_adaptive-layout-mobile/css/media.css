@@ -236,7 +236,7 @@
 
   .work__picture {
     max-width: 668px;
-    min-height: 284px;
+    min-height: 160px;
   }
 
   .questions__text {
@@ -505,7 +505,7 @@
     width: 100%;
     background-position: left top;
     background-size: 100%;
-    margin-bottom: 0;
+    margin-bottom: 16px;
   }
 
   .footer__container {
@@ -551,6 +551,10 @@
     height: 40px;
   }
 
+  .about-us {
+    margin-bottom: 60px;
+  }
+
   .work__btns {
     gap: 10px;
   }
@@ -571,7 +575,6 @@
     width: 133px;
   }
   
-
   .work__context-treaty__btn {
     padding: 11px 29px 14px 30px;
     text-align: center;
