@@ -495,6 +495,7 @@ body {
 
 .work__picture {
   width: 870px;
+  min-height: 460px;
   background-image: url("../img/work-office-picture.jpg");
   background-repeat: no-repeat;
   background-size: cover;

@@ -216,6 +216,10 @@
     max-width: 360px;
   }
 
+  .about-us {
+    margin-bottom: 60px;
+  }
+
   .work {
     margin-top: 0;
   }
@@ -236,7 +240,8 @@
 
   .work__picture {
     max-width: 668px;
-    min-height: 284px;
+    min-height: 160px;
+    margin-bottom: 16px;
   }
 
   .questions__text {
