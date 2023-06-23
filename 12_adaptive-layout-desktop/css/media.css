@@ -301,10 +301,6 @@
     margin-bottom: 50px;
   }
 
-  .work__picture {
-    margin-bottom: 38px;
-  }
-
   .work__context-kind__text {
     max-width: 667px;
     margin-bottom: 25px;
@@ -312,8 +308,9 @@
   }
 
   .work__picture {
-    max-width: 668px;
+    max-width: 100%;
     min-height: 284px;
+    margin-bottom: 38px;
   }
 
   .work__content {
@@ -385,8 +382,8 @@
   }
 
   .footer__container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .order-calculation__text {
@@ -399,7 +396,11 @@
   }
 
   .work__picture {
-    max-width: 568px;
+    max-width: 100%;
+  }
+
+  .work__items {
+    gap: 100px;
   }
 }
 
