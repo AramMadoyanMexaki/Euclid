@@ -658,23 +658,27 @@ body {
   list-style: none;
 }
 
-.addresses__social-item a svg path{
+.addresses__social-item {
+  list-style: none;
+}
+
+.addresses__social-link svg path{
   transition: fill 0.3s linear;
 }
 
-.addresses__social-item a svg ellipse{
+.addresses__social-link svg ellipse{
   transition: fill 0.3s linear;
 }
 
-.addresses__social-item:hover a svg path {
+.addresses__social-link:hover svg path {
   fill: var(--btn-yellow);
 }
 
-.addresses__social-item:focus a svg path {
+.addresses__social-link:focus svg path {
   fill: var(--btn-yellow);
 }
 
-.addresses__social-item:active a svg path {
+.addresses__social-link:active  svg path {
   fill: var(--active-color);
 }
 
