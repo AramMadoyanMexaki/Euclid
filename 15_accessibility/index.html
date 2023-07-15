@@ -12,12 +12,13 @@
   <body>
     <header class="header">
       <div class="container header__container flex">
-        <button class="header-reset burger">
+        <button aria-label="меню" class="header-reset burger">
           <span class="burger__line"></span>
           <span class="burger__line"></span>
           <span class="burger__line"></span>
         </button>
         <a
+          aria-label="логотип"
           href="/weblayout/12_adaptive-layout-desktop/"
           class="header__main-logo"
         >
@@ -186,7 +187,7 @@
               Есть над чем задуматься: базовые сценарии поведения пользователей
               и по сей день остаются уделом проектантов
             </p>
-            <button aria-label="Заказать расчёт" class="order-calculation__btn btn">Заказать расчёт</button>
+            <button class="order-calculation__btn btn">Заказать расчёт</button>
           </div>
         </div>
       </section>
@@ -219,9 +220,7 @@
               </div>
             </div>
             <div class="about-us__possibilities flex">
-              <div
-                class="about-us__possibilities-consultation about-us__possibilities-item flex"
-              >
+              <div class="about-us__possibilities-consultation about-us__possibilities-item flex">
                 <div class="about-us__possibilities-context">
                   <h3 class="about-us__possibilities-title">
                     Консультация с широким активом
@@ -233,9 +232,7 @@
                   </p>
                 </div>
               </div>
-              <div
-                class="about-us__possibilities-quality about-us__possibilities-item flex"
-              >
+              <div class="about-us__possibilities-quality about-us__possibilities-item flex">
                 <div class="about-us__possibilities-context">
                   <h3 class="about-us__possibilities-title">
                     В своём стремлении повысить
@@ -252,47 +249,51 @@
         </div>
       </section>
       <section class="work section">
-        <div class="container">
-          <h2 class="work__content-title sec-title">Как мы работаем</h2>
-          <ul class="work__items flex">
-            <li class="work__item">
-              <button class="work__btn">1 шаг</button>
-            </li>
-            <li class="work__item">
-              <button class="work__btn">2 шаг</button>
-            </li>
-            <li class="work__item">
-              <button class="work__btn">3 шаг</button>
-            </li>
-            <li class="work__item">
-              <button class="work__btn">4 шаг</button>
-            </li>
-          </ul>
-          <div class="work__content flex">
-            <div class="work__context">
-              <h3 class="work__context-kind__title">Проводим консультацию</h3>
-              <p class="work__context-kind__text">
-                Влечет за собой процесс внедрения и модернизации приоритизации
-                разума над эмоциями. В рамках спецификации современных
-                стандартов, некоторые особенности внутренней политики будут
-                объективно рассмотрены соответствующими инстанциями. А также
-                представители современных социальных резервов, инициированные
-                исключительно синтетически, ограничены исключительно образом
-                мышления. Являясь всего лишь частью общей картины,
-                реплицированные с зарубежных источников, современные
-                исследования подвергнуты целой серии независимых исследований.
-                Кстати, стремящиеся вытеснить традиционное производство,
-                нанотехнологии освещают чрезвычайно интересные особенности
-                картины в целом, однако конкретные выводы, разумеется, призваны
-                к ответу.
-              </p>
-              <div class="work__btns flex">
-                <a href="#" class="work__context-more__btn btn">Подробнее</a>
-                <a href="#" class="work__context-treaty__btn">Договор</a>
+        <div class="container work__container flex">
+          <div class="work__content">
+            <h2 class="work__content-title sec-title">Как мы работаем</h2>
+            <div class="work__sections">
+              <ul class="work__items flex">
+                <li class="work__item">
+                  <button aria-label="Первый шаг" class="work__btn">1 шаг</button>
+                </li>
+                <li class="work__item">
+                  <button aria-label="Второй шаг" class="work__btn">2 шаг</button>
+                </li>
+                <li class="work__item">
+                  <button aria-label="Третий шаг" class="work__btn">3 шаг</button>
+                </li>
+                <li class="work__item">
+                  <button aria-label="Четвертый шаг" class="work__btn">4 шаг</button>
+                </li>
+              </ul>
+              <div class="work__context">
+                <h3 class="work__context-kind__title">
+                  Проводим консультацию
+                </h3>
+                <p class="work__context-kind__text">
+                  Влечет за собой процесс внедрения и модернизации приоритизации
+                  разума над эмоциями. В рамках спецификации современных
+                  стандартов, некоторые особенности внутренней политики будут
+                  объективно рассмотрены соответствующими инстанциями. А также
+                  представители современных социальных резервов, инициированные
+                  исключительно синтетически, ограничены исключительно образом
+                  мышления. Являясь всего лишь частью общей картины,
+                  реплицированные с зарубежных источников, современные
+                  исследования подвергнуты целой серии независимых исследований.
+                  Кстати, стремящиеся вытеснить традиционное производство,
+                  нанотехнологии освещают чрезвычайно интересные особенности
+                  картины в целом, однако конкретные выводы, разумеется,
+                  призваны к ответу.
+                </p>
+                <div class="work__btns flex">
+                  <a href="#" class="work__context-more__btn btn">Подробнее</a>
+                  <a href="#" class="work__context-treaty__btn">Договор</a>
+                </div>
               </div>
             </div>
-            <div class="work__picture"></div>
           </div>
+          <div class="work__picture"></div>
         </div>
       </section>
       <section class="questions section">
@@ -418,10 +419,11 @@
         </div>
       </section>
     </main>
+    
     <footer class="footer footer-section">
       <div class="container footer__container flex">
         <div class="footer__addresses">
-          <a href="/weblayout/12_adaptive-layout-desktop/" class="footer__logo">
+          <a aria-label="логотип" href="/" class="footer__logo">
             <svg
               width="225"
               height="72"
@@ -562,7 +564,7 @@
             <div class="addresses__social">
               <ul class="addresses__social-list flex">
                 <li class="addresses__social-item">
-                  <a href="#" class="addresses__social-link">
+                  <a aria-label="Фейсбук" href="#" class="addresses__social-link">
                     <svg
                       width="60"
                       height="60"
@@ -578,7 +580,7 @@
                   </a>
                 </li>
                 <li class="addresses__social-item">
-                  <a href="#" class="addresses__social-link">
+                  <a aria-label="ВКонтакте" href="#" class="addresses__social-link">
                     <svg
                       width="60"
                       height="60"
@@ -594,7 +596,7 @@
                   </a>
                 </li>
                 <li class="addresses__social-item">
-                  <a href="#" class="addresses__social-link">
+                  <a aria-label="инстаграм" href="#" class="addresses__social-link">
                     <svg
                       width="60"
                       height="60"
@@ -639,7 +641,7 @@
             method="POST"
             class="form"
           >
-            <h2 class="form__title sec-title">Оставить заявку</h2>
+            <h2 class="form__title">Оставить заявку</h2>
             <div class="form__input">
               <input
                 type="text"
@@ -678,12 +680,12 @@
         </div>
         <div class="footer__descr">
           <p class="footer__descr-text">
-            Высокий уровень вовлечения представителей целевой аудитории является
-            четким доказательством простого факта: разбавленное изрядной долей
-            эмпатии, рациональное мышление позволяет оценить значение модели
-            развития. Таким образом, консультация с широким активом обеспечивает
-            широкому кругу (специалистов) участие в формировании стандартных
-            подходов.
+            Высокий уровень вовлечения представителей целевой аудитории
+            является четким доказательством простого факта: разбавленное
+            изрядной долей эмпатии, рациональное мышление позволяет оценить
+            значение модели развития. Таким образом, консультация с широким
+            активом обеспечивает широкому кругу (специалистов) участие в
+            формировании стандартных подходов.
           </p>
         </div>
       </div>
